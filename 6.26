@@ -1,0 +1,25 @@
+1. 새로운 브랜치 생성 및 작업하기
+
+   git checkout -b dev_sj
+   git checkout -b setting_pr
+
+2.파일 생성 및 커밋하기
+
+   touch 환경설정.txt
+   git add .
+   git commit -m "환경설정 완료"
+
+3. 다른 브랜치로 전환 및 병합하기
+
+   git checkout dev_sj
+   git merge setting_pr
+
+4.병합 후 원격 저장소로 푸시하기
+
+   git push origin dev_sj
+
+5.태그 추가 및 원격 저장소에 푸시하기
+
+   git tag setting
+   git push --tags origin main
+
