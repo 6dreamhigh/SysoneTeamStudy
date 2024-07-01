@@ -1,4 +1,4 @@
-package oop11.interface01;
+package PR1;
 
 public class HarmanSpeaker implements Speaker{
 
